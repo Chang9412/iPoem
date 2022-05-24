@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window.rootViewController = IPMainViewController()
         window.backgroundColor = .white
         self.window = window
-//        window.makeKeyAndVisible()
+        window.makeKeyAndVisible()
         
         return true
     }
