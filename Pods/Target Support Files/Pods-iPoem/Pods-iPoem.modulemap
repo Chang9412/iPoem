@@ -1,0 +1,6 @@
+framework module Pods_iPoem {
+  umbrella header "Pods-iPoem-umbrella.h"
+
+  export *
+  module * { export * }
+}
