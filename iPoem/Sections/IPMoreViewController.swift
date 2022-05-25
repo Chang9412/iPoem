@@ -96,8 +96,7 @@ extension IPMoreViewController: UICollectionViewDelegate, UICollectionViewDataSo
         
         if indexPath.item == 2 {
             guard !reviewedInApp else {
-                // TODO: 更换id
-                let appid = "1625107781"
+                let appid = "1625850526"
                 let urlString = "https://itunes.apple.com/us/app/itunes-u/id\(appid)?action=write-review&mt=8"
                 guard let url = URL(string: urlString) else { return }
                 UIApplication.shared.open(url)
